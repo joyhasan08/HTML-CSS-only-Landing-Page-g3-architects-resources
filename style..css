@@ -2,3 +2,27 @@
     font-family: 'Poppins', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
+/*nav bar*/
+header{
+    background: rgba(255, 144, 14, 0.10);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav > ul {
+    display: flex;
+}
+ul>li{
+    list-style: none;
+    margin-right: 20px;
+}
+li a{
+    text-decoration: none;
+    color:  #424242;
+}
+.nav-tile{
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;   
+}
