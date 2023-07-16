@@ -80,6 +80,50 @@ li a{
    background: #FF900E;
    cursor: pointer; 
 }
+/*main style*/
+main {
+    max-width: 1440px;
+    margin: 0 auto ;
+}
+/*tame section*/
+.team-container{
+    display: flex;
+}
+.team-collage{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+.team-description-container{
+    
+    align-items: center;
+    justify-content: center;
+    border: red solid;
+}
+.taem-divison{
+    align-items: center;
+    justify-content: center;
+    border: #12a31e dashed;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
