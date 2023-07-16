@@ -236,6 +236,21 @@ main {
         
     }
     /* facts parts*/
-   
+   .achievements{
+    flex-direction: column;
+    flex-wrap: wrap;
+   }
+   .fact-card{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #fae4cc;
+    border-radius: 0%;
+   }
+   .fact-card img{
+    width: 45.221px;
+    height: 45.221px;
+    margin-top: 10%;
+    margin-left: 44%;
 }
     
