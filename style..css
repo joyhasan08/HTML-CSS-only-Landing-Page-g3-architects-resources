@@ -93,6 +93,7 @@ main {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 24px;
+
 }
 .team-description-container{
     
@@ -102,8 +103,28 @@ main {
 }
 .taem-divison{
     align-items: center;
-    justify-content: center;
     border: #12a31e dashed;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-top: 30%;
+    
+}
+.team-title{
+   font-size: 2.5rem;
+  
+}
+.team-story{
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    
+}
+.team-pic > img{
+    height: 342px;
+    border-radius: 500px;
+    border: mediumorchid solid;
 }
 
 
