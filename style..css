@@ -127,6 +127,53 @@ main {
 }
 
 
+/* facts parts*/
+.achievements{
+    display: flex;
+    width: 100%;
+
+    justify-content: space-around;
+}
+.fact-card{
+    width: 240px;
+    height: 240px;
+    border: 0.1rem solid #FF900E;
+    border-radius: 8px;
+    
+}
+.fact-icon{
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+}
+.fact-story{
+    text-align: center;
+    font-size: 20px;
+    color: #727272;
+    font-weight: 600;
+}
+.fact-card img{
+    width: 45.221px;
+    height: 45.221px;
+    margin-top: 20%;
+    margin-left: 40%;
+}
+.icons{
+    border: 2px #FF900E dashed;
+    border-radius: 50%;
+   
+    
+}
+.fact{
+   margin-top: 5%;
+   margin-bottom: 3%;
+}
+.fact-descrip{
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 1%;
+}
 
 
 
@@ -188,6 +235,7 @@ main {
         border-radius: 500px;
         
     }
+    /* facts parts*/
    
 }
     
