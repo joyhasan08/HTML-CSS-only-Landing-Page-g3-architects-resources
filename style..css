@@ -7,8 +7,8 @@
 /*nav bar*/
 header{
     background: rgba(255, 144, 14, 0.10);
-  
     border: solid salmon;
+    
     
 }
 nav{
@@ -34,10 +34,11 @@ li a{
     color:  #424242;
 
 }
-.nav-tile{
+.nav-title{
     color: #131313;
-    font-size: 3rem;
-    font-weight: 700;   
+    font-size: 2.5rem;
+    font-weight: 700;
+    border: #12a31e dashed;   
 }
 /*banner */
 .banner{
@@ -59,8 +60,7 @@ li a{
 .banner-story{
     color: #727272;
     font-size: 1rem;
-    font-weight: 400;
-    width: 868px;
+    font-weight: 400; 
     margin: 0 auto;
     margin-bottom: 32px;
     
@@ -80,3 +80,34 @@ li a{
    background: #FF900E;
    cursor: pointer; 
 }
+
+
+
+
+
+/*meida quere*/
+@media screen and (max-width: 576px) {
+    header{
+        margin: 0%;
+        padding: 0%;
+    }
+    nav{
+        flex-direction: column;
+        padding: 0%;
+        margin-bottom: 5%;
+    }
+    nav > ul {
+        
+       /* flex-direction: column;*/
+    }
+    .banner{
+        padding: 0%;
+        margin: 0%;
+    }
+    .banner-title{
+        font-size: 3rem;
+    }
+    
+   
+}
+    
