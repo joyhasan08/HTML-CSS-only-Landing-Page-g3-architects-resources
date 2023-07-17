@@ -193,8 +193,11 @@ main {
 .sponspors-story{
     margin-top: 3%;
 }
-
-
+.sponser-conatainer{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10%;
+}
 
 
 
@@ -292,7 +295,7 @@ main {
         height: 50px;
         margin: 0%;
         padding: 0%;
-        
+
 
     }
     .footer-discrip{
