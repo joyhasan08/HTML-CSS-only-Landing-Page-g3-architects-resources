@@ -123,9 +123,11 @@ main {
 .team-pic > img{
     height: 342px;
     border-radius: 500px;
-    
+    transition: height 1s;
 }
-
+.team-pic > img:hover{
+    height: 400px;
+}
 
 /* facts parts*/
 .achievements{
@@ -139,7 +141,13 @@ main {
     height: 240px;
     border: 0.1rem solid #FF900E;
     border-radius: 8px;
+    background-color: #fae4cc;
+    transition: width 0.5s;
     
+}
+.fact-card:hover{
+    width: 300px;
+    /*transition: all 0.5s  ease-out;*/
 }
 .fact-icon{
     font-size: 45px;
@@ -275,5 +283,27 @@ main {
     height: 45.221px;
     margin-top: 10%;
     margin-left: 44%;
+   }
+    /*footer part*/
+    
+    
+    .footer-container{
+       
+        height: 50px;
+        margin: 0%;
+        padding: 0%;
+        
+
+    }
+    .footer-discrip{
+        font-weight: 400;
+        color: #424242;
+        height: 10%;
+        text-align: ;
+        font-size: 1rem;
+        text-align: center;
+    }
+    
 }
+
     
