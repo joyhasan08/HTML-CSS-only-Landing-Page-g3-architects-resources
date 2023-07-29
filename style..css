@@ -265,9 +265,17 @@ main {
     }
 
     .team-pic > img{
-        height: 180px;
+        height: 90px;
         border-radius: 500px;
+        padding: 0px;
         
+    }
+    .team-container{
+        width: fit-content;
+    }
+   
+    .team-pic > img:hover{
+    height: 120px;
     }
     /* facts parts*/
    .achievements{
@@ -293,8 +301,8 @@ main {
     .footer-container{
        
         height: 50px;
-        margin: 0%;
-        padding: 0%;
+        margin: 5%;
+        padding: 5%;
 
 
     }
@@ -306,7 +314,22 @@ main {
         font-size: 1rem;
         text-align: center;
     }
+
+    .sponser-conatainer{
+        flex-direction: column; 
+        justify-content: center;
     
+        
+    }
+    .Sponspors-icon > img{
+            padding:0px;
+            
+            width: 100px;
+    }
+    .Sponspors-icon{
+        margin: 0% auto;
+        margin-top: 20px;
+    }
 }
 
     
