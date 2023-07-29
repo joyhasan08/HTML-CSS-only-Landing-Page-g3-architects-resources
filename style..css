@@ -265,7 +265,7 @@ main {
     }
 
     .team-pic > img{
-        height: 90px;
+        height: 130px;
         border-radius: 500px;
         padding: 0px;
         
@@ -275,7 +275,7 @@ main {
     }
    
     .team-pic > img:hover{
-    height: 120px;
+    height: 150px;
     }
     /* facts parts*/
    .achievements{
